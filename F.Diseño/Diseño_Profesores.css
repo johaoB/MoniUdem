@@ -1,0 +1,51 @@
+body {
+    background-color: #2B3034;
+}
+.container {
+    display: grid;
+}
+
+.container .container2 {
+    display: flex;
+    width:100%;
+    height: 20vh;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ff4f58;
+}
+.container #Titulo {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 450px;
+    font-size: 30px;
+    color: gray;
+}
+
+.container .container3 {
+    display: grid;
+    margin: auto;
+    background-color: transparent;
+}
+input[value="Revisar"] {
+    width: 200px;
+    height: 30px;
+    border: 10px;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+input[value="Salir"] {
+    width: 60px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border: 10px;
+    border-radius: 10px;
+    background-color:#ff4f54;
+}
+input[value="Salir"]:hover {
+    cursor: pointer;
+    background-color: #ff4f65;
+}
+input[value="Revisar"]:hover {
+    cursor: pointer;
+    background-color: gray
+}
