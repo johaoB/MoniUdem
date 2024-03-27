@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoniUdem</title>
+    <link rel="shortcut icon" href="Logo_Udem.png">
+    <link rel="stylesheet" type="text/css" href="Diseño_Moniudem.css">
+   
+</head>
+<body>
+
+    <div class="container">
+        <div class="container2">
+            <div class="slider">
+                <div class="slide">
+                    <img src="Img_MoniUdem1.jpeg" alt="Imagen 1">
+                </div>
+                <div class="slide">
+                    <img src="Img_MoniUdem2.jpeg" alt="Imagen 2">
+                </div>
+            </div>
+            <div class="slider-nav">
+                <a href="#" class="active"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+
+        <div class="container3">
+            <img src="Logo_Udem2.png" alt="Imagen3" id="Logo2">
+            <label id="Bienvenidos">¡Bienvenidos!</label>
+
+            <form id="loginForm">
+                <label id="Email">Email</label><br>
+                <input type="email" id="username" name="username"><br><br>
+
+                <div class="password-container">
+                    <label id="Contraseña">Contraseña</label>
+                    <input type="button" id="Question">
+                    <label for="Question" id="olvido">¿Has olvidado tu contraseña?</label>
+                    
+                    <div class="password-input">
+                        <input type="password" id="password" name="password">
+                        <button type="button" id="showPassword"></button>
+                    </div>
+                </div>
+                
+                <input type="submit" value="Iniciar sesión">
+            </form>
+            <div class="container4">
+                <label id="Cuenta">¿Todavía no tienes cuenta?</label>
+                <label id="Registro">Registrate aquí</label>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <label id="Recuperar">Recuperar Contraseña</label><br><br>
+            <label>Ingresa tu correo/email para enviarte un mensaje de recuperación</label><br><br>
+            <label>Email</label><br>
+            <input type="email" id="R-email"><br><br>
+            <input type="submit" id="R-enviar">
+        </div>
+    </div>
+
+    <div class="custom-alert" id="customAlert">
+        <div class="alert-content">
+            <p id="alertMessage"></p>
+        </div>
+    </div>
+
+    <script src="Funcion-MoniUdem.js"></script>
+
+</body>
+</html>

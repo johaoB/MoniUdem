@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="Logo_Udem.png">
+    <link rel="stylesheet" type="text/css" href="Diseño_Registro.css">
+  
+</head>
+<body>
+
+    <div class="container">
+        <div class="container2">
+            <img src="Logo_Udem.png" alt="Logo">
+            <label id="Titulo">Registro de  Usuario</label>
+        </div>
+
+        <div class="container3">
+            <form id="FormRegistro">
+                <label id="Espacio"></label>
+
+                <label id="Registro">Nombre</label>
+                <input type="text" name="Nombre" autocomplete="off">
+
+                <label id="Registro">Apellido</label>
+                <input type="text" name="Apellido" autocomplete="off">
+
+                <label id="Registro">Correo</label>
+                <input type="email" name="Correo" autocomplete="off">
+
+                <label id="Registro">Contraseña</label>
+                <input type="password" name="Contraseña" autocomplete="off">
+
+                <label id="Registro">Facultad</label>
+                <select id="Opc-Facultad" name="Facultad">
+                    <option hidden></option>
+                    <option value="Derecho">Derecho</option>
+                    <option value="Ciencias Económicas y Administrativas">Ciencias Económicas y Administrativas</option>
+                    <option value="Ingenierías">Ingenierías</option>
+                    <option value="Comunicación">Comunicación</option>
+                    <option value="Ciencias Sociales y Humanas">Ciencias Sociales y Humanas</option>
+                    <option value="Ciencias Básicas">Ciencias Básicas</option>
+                    <option value="Díseño">Díseño</option>
+                </select>
+
+                <label id="Registro">Cargo</label>
+                <select id="Opc-cargo" name="Cargo">
+                    <option hidden></option>
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Profesor">Profesor</option>
+                </select>
+
+                <input type="submit" value="Registrar Información">
+            </form>
+            
+            <div class="container4">
+                <div>
+                    <label id="Cuenta">¿Ya tienes cuenta?</label>
+                    <label id="Ingreso">Ingresa aquí</label>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="Funcion-Registro.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiante</title>
+    <link rel="shortcut icon" href="Logo_Udem.png">
+    <link rel="stylesheet" type="text/css" href="Diseño_Estudiantes.css">
+
+</head>
+<body>
+       
+    <div class="container">
+        <div class="container2">
+            <button onclick="toggleDropdown()" class="dropbtn">Menú</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="Pagina-Estudiantes.html">Realizar Informes</a>
+                    <a href="Pagina-Estudiantes2.html">Revisar Asignaciones</a>
+                </div>
+            <label id="Titulo">Gestion de Informes</label>
+            <img src="Logo_Udem.png" alt="Logo">
+        </div>
+        <div class="container3">
+            <label id="informe">Informes</label>
+            <table>
+                <tr>
+                    <th>Materia</th>
+                    <th>Fecha</th>
+                    <th>Informe</th>
+                    <th>Estado</th>
+                </tr>
+                <tr>
+                    <td id="r1c1">Pensamiento Algorítmico</td>
+                    <td id="r1c2">12/11/2023</td>
+                    <td id="r1c3">Realizar informe</td>
+                    <td id="r1c4">No realizado</td>
+                </tr>
+            </table>
+        </div>
+        <input type="button" id="Salir" value="Salir">
+    </div>
+
+    <script src="Funcion-Estudiante.js"></script>
+
+</body>
+</html>

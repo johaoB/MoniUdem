@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesor</title>
+    <link rel="shortcut icon" href="Logo_Udem.png">
+    <link rel="stylesheet" type="text/css" href="Diseño_Profesores.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container2">
+            <button onclick="toggleDropdown()" class="dropbtn">Menú</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="Pagina-Profesores2.html">Convocatorias</a>
+                    <a href="Pagina-Profesores3.html">Revisar Informes</a>
+                    <a href="Pagina-Profesores4.html">Postulantes</a>
+                    <a href="Pagina-Profesores5.html">Asignar Funciones</a>
+                    <a href="Pagina-Profesores6.html">Monitores</a>
+                </div>
+            <label id="Titulo">Gestión de Monitores</label>
+            <img src="Logo_Udem.png" alt="Logo">
+        </div>
+
+        <div class="container3">
+            <label id="informe">Monitores</label>
+            <table>
+                <tr>
+                    <th>Nombre estudiante</th>
+                    <th>Materia</th>
+                    <th>Semestre</th>
+                    <th>Correo Institucional</th>
+                </tr>
+                <tr>
+                    <td id="r1c0">Maria Alejandra</td>
+                    <td id="r1c1">Pensamiento Algorítmico</td>
+                    <td id="r1c2">2023-2</td>
+                    <td id="r1c5">malejandra2023@soyudemedellin.edu.co</td>
+                </tr>
+            </table>
+        </div>
+
+        <input type="button" id="Salir" value="Salir">
+    </div>
+
+    <script src="Funcion-Profesores.js"></script>
+
+</body>
+</html>
